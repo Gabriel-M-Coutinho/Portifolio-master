@@ -1,0 +1,61 @@
+.habilities {
+  @apply bg-background
+    w-full
+    flex
+    flex-col
+    items-center
+    align-middle
+    justify-center
+    py-24
+    lg:px-24
+    md:px-8
+    border-y-[1px]
+    border-foreground;
+}
+
+.habilities p {
+  @apply pt-14
+    pb-10;
+}
+
+.hability-track {
+  @apply flex
+    flex-row
+    items-center
+    align-middle
+    justify-center
+    lg:gap-14
+    md:gap-10
+    gap-5
+    lg:px-24
+    px-10
+    w-full;
+}
+
+.hability {
+  @apply h-[100px]
+    w-[100px]
+    text-center
+    text-sm;
+
+  img {
+    @apply h-[100px]
+        w-[100px]
+        flex
+        items-center
+        justify-center
+        gap-5;
+  }
+
+  span {
+    @apply text-text;
+  }
+}
+
+.logo-hability {
+  filter: saturate(0) invert(1) grayscale(100%) brightness(150%);
+}
+
+.logo-hability:hover {
+  filter: saturate(1) grayscale(0%) brightness(100%);
+}

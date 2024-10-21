@@ -1,0 +1,61 @@
+@import "tailwindcss/base";
+@import "tailwindcss/components";
+@import "tailwindcss/utilities";
+
+body {
+  font-family: "Afacad Flux", sans-serif;
+  @apply bg-background 
+  text-text;
+}
+
+.dm-serif {
+  font-family: "DM Serif Text", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.dm-serif-italic {
+  font-family: "DM Serif Text", serif;
+  font-weight: 400;
+  font-style: italic;
+}
+
+.afacad {
+  font-family: "Afacad Flux", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+h2 {
+  @apply text-8xl
+  text-center
+      text-text
+      font-normal;
+}
+
+h1 {
+  @apply text-5xl
+  text-center
+        pb-3
+        text-text
+        font-normal;
+}
+
+p {
+  @apply text-text
+        text-xl
+        font-medium;
+}
+
+a.linked {
+  @apply text-text
+    underline
+    cursor-pointer
+    uppercase;
+
+  line-height: 1.6;
+}
+
+a.linked:hover {
+  @apply text-focus;
+}

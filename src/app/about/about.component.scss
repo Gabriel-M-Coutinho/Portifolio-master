@@ -1,0 +1,36 @@
+.about {
+  @apply grid
+  lg:grid-cols-3
+            md:grid-cols-2
+            grid-cols-1
+            w-full
+            justify-center
+            align-middle
+            text-start
+            gap-5
+            py-24
+            lg:px-24
+            md:px-8
+            px-16
+            border-y-[1px]
+            border-foreground;
+}
+
+.about img {
+  @apply lg:col-span-1
+        w-full
+        h-full
+        object-cover
+        object-center
+        xl:pr-10;
+
+  //filter: saturate(0) grayscale(100%);
+}
+
+.texts {
+  @apply lg:col-span-2
+        flex
+        flex-col
+        justify-center
+        align-middle;
+}

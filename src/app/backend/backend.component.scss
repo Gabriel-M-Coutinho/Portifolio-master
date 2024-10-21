@@ -1,0 +1,42 @@
+.backend {
+  @apply bg-background
+      w-full
+      flex
+      flex-col
+      justify-center
+      align-middle
+      text-start
+      py-10
+      lg:px-14
+      px-4
+      border-y-[1px]
+      border-foreground;
+}
+
+.back-projects {
+  @apply grid
+      grid-cols-1
+      lg:grid-cols-2
+      md:grid-cols-2
+      gap-4;
+}
+
+.back-project {
+  @apply flex
+  flex-col
+  border-foreground
+  border-2
+  text-center
+  rounded-3xl
+  mt-10
+  py-10
+  px-3
+  md:px-10;
+}
+
+.project-header {
+  @apply flex
+      flex-row
+      justify-between
+      pb-2;
+}

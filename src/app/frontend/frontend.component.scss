@@ -1,0 +1,57 @@
+.front-projects {
+  @apply bg-background
+    w-full
+    flex
+    flex-col
+    justify-center
+    align-middle
+    text-start
+    py-10
+    lg:px-14
+    md:px-4
+    border-y-[1px]
+    border-foreground;
+}
+
+.card-projects {
+  @apply flex
+    md:rounded-2xl
+    flex-row
+    flex-wrap
+    items-center
+    justify-center
+    align-middle
+    text-center
+    w-fit
+    gap-5
+    mt-10
+    p-5;
+}
+
+.project-image {
+  @apply w-[50%]
+    min-w-[450px]
+    h-full
+    rounded-2xl
+    border-2
+    border-text
+    object-cover
+    object-center;
+}
+
+.description {
+  @apply w-[400px]
+  md:w-[350px]
+  lg:w-[400px]
+  xl:w-[510px]
+    text-justify
+    text-text
+    text-base;
+}
+
+.project-header {
+  @apply flex
+    flex-row
+    justify-between
+    pb-2;
+}

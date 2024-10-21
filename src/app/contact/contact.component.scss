@@ -1,0 +1,12 @@
+.contact {
+  @apply flex
+        flex-col
+        h-[50vh]
+        justify-center
+        align-middle
+        text-center
+        md:gap-5
+        gap-10
+        p-4
+        bg-foreground;
+}
